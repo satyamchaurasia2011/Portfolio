@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Sansita Swashed
+- Font Author: Copyright 2020 The Sansita Swashed Project Authors (https://github.com/Omnibus-Type/Sansita-Swashed)
+- Font Source: http://fonts.gstatic.com/s/sansitaswashed/v5/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW7RpbToVehmEa4Q.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
