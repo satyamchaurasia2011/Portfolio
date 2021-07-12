@@ -1,0 +1,113 @@
+.about{
+    padding-top: 40px;
+    letter-spacing: 1px;
+    
+}
+
+.main-abt{
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 70px 50px 80px 30px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,  -20px -20px 60px #ffffff;
+    
+}
+
+
+
+
+.left-img{
+    width: 50%;
+    margin-top: 10%;
+}
+.left-img>img{
+    width: 80%;
+    height: auto;
+    border-radius: 10%; 
+}
+
+.bio{ 
+    width: 50%;
+    text-align: left;
+    font-family: 'Martel', serif;
+  
+}
+.bio>h1{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.bio>h2{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.bio>p{
+    font-size: 20px;
+    line-height: 1.733333;
+    color: rgb(3, 56, 61);
+}
+.bio>div{
+    border-top: 5px solid rgb(68, 0, 255);
+    width: 10%;
+}
+.resume{
+    font-size: 25px !important;
+    margin-top: 80px !important;
+    transition: background-color 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+}
+
+h4{
+    margin-left: 5px !important;
+    font-family: 'Ubuntu', sans-serif !important;
+    letter-spacing: 3px !important;
+    color: black !important;
+}
+
+
+@media (max-width:1024px) {
+  .main-abt{
+    width: 76%;
+  }
+}
+
+@media (max-width:768px) {
+  .main-abt{
+    width: 60%;
+    display: block;
+  }
+  .left-img{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .left-img>img{
+    width: 90%;
+  }
+  .bio{
+    width: 100%;
+  }
+  .bio>h1{
+    font-size: 30px;
+  }
+  .bio>h2{
+    font-size: 20px;
+  }
+  .bio>p{
+    font-size: 16px;
+  }
+  .resume{
+    margin-top: 60px;
+  }
+}
+
+@media (max-width:500px) {
+  .main-abt{
+    padding: 50px 25px;
+    width: 80%;
+  }
+  .left-img>img{
+    width: 100%;
+  }
+}

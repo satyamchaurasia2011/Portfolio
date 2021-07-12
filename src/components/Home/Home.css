@@ -1,0 +1,161 @@
+.home{
+    height: 100vh;
+    padding-top: 11vh;
+    overflow-x: hidden;
+    
+    
+}
+.back-style {
+    position: absolute;
+   opacity: 40%;
+  right: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sub-home{
+    display: flex;
+    justify-content: center;
+    margin-top: 11vh;
+    width: 100vw;
+    background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffreepng%2Fprogram-icon-for-web-designers-and-programmers_5526877.html&psig=AOvVaw3kMHQd7sjJhgUY44wqtc8S&ust=1625414329785000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCOj0i7qix_ECFQAAAAAdAAAAABAI);
+}
+.intro{
+    text-align: left;
+    margin-top: 6.7%;
+    width: 50vw;
+    padding-left: 20%;
+    font-family: 'Martel', serif;
+    line-height: 1.73;
+    letter-spacing: 1.2px;
+}
+@keyframes fadeInUp {
+    0% {opacity: 0; transform: translate3d(0,100px,0);}
+    100% {opacity: 1;    transform: translate3d(0,0,0);} 
+  }
+  @keyframes fadeInLeft {
+    0% {opacity: 0; transform: translate3d(200px,0,0);}
+    100% {opacity: 1;    transform: translate3d(0,0,0);} 
+  }
+
+.intro>h3{
+    font-size: 40px;
+   font-weight: 600;
+   opacity: 0;
+   animation: fadeInLeft 2s 1.5s forwards;
+}
+.intro>h2{
+    font-size: 40px;
+    font-weight: 600;
+    opacity: 0;
+    animation: fadeInLeft 1.5s 3.5s  forwards;
+}
+.intro>h1{
+    font-size: 58px;
+    font-weight: 800;
+    opacity: 0;
+   animation: fadeInUp 1.25s 2.5s forwards;
+}
+.img{
+    width: 50vw;
+    padding-right: 10%;
+
+}
+.img>img{
+    width: 25vw;
+    height: auto;
+    opacity: 0;
+    animation: fadeInUp 1.25s 0.7s forwards;
+}
+
+@media (max-width:1572px) {
+    .intro{
+        margin-top: 10%;
+    }
+    .intro>h1{
+        font-size: 46px;
+    }
+    .img{
+        margin-top: 50px;
+    }
+}
+@media (max-width:1259px) {
+    .intro>h1{
+        font-size: 40px;
+    }
+    .intro>h2{
+        font-size: 30px;
+    }
+    .intro>h3{
+        font-size: 30px;
+    }
+}
+@media (max-width:1024px){
+    .intro>h1{
+        font-size: 37px;
+    }
+    .intro>h2{
+        font-size: 32px;
+    }
+    .intro>h3{
+        font-size: 32px;
+    }
+    .img>img{
+        width: 35vw;
+    }
+    .img{
+        margin-top: 20px;
+            width: 30vw;
+    }
+}
+@media (max-width:768px) {
+    .home{
+        margin-top: 0px;
+    }
+    .sub-home{
+        display: block;
+        margin-top: -2vh;
+    }
+    .back-style{
+        display: none;
+    }
+    .intro{
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .intro>h1{
+        font-size: 43px;
+    }
+    .intro>h2{
+        font-size: 34px;
+    }
+    .intro>h3{
+        font-size: 34px;
+    }
+    .img>img{
+        width: 45vw;
+    }
+    .img{
+        margin-top: 80px;
+            width: 100vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .intro>h1{
+        font-size: 35px;
+    }
+    .intro>h2{
+        font-size: 30px;
+    }
+    .intro>h3{
+        font-size: 30px;
+    }
+    .img>img{
+        width: 80%;
+    }
+    .img{
+       padding-right: 0px;
+    }
+}

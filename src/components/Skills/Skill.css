@@ -1,0 +1,44 @@
+.skill{
+    text-align: left;
+    padding: 0px 40px;
+}
+label{
+    font-size: 20px;
+}
+span{
+    float: right !important;
+    font-size: 20px;
+}
+
+.range{
+    height: 8px;
+    margin-top: 12px;
+    margin-bottom: 50px;
+    background-color: #cfe9f8;
+    border-radius: 4px;
+    box-shadow: none;
+    width: 100%;
+    position: relative;
+}
+.percent-fill{
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: aqua;
+    animation: progress-bar 3s ease-in-out;
+}
+
+@keyframes progress-bar {
+    0% {
+      width: 0px;
+    }
+   
+  }
+
+  @media (max-width:768px) {
+    .skills{
+        padding: 0px 60px;
+    }
+  }
