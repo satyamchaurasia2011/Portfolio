@@ -79,7 +79,11 @@
 .header-icons>h3>a:hover{
     color:black;  
 }
-
+@media (max-width:1550px) and (min-width:768px){
+    .header-icons{
+        margin-top: 15vh;
+    }
+}
 @media (max-width:1024px) {
     .header{
         margin-left: 0rem;
