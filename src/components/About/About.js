@@ -21,7 +21,7 @@ function About() {
                         </p>
 
                         <Button size='large' className='resume'>
-                           <a href='assets/resume/Resume1.pdf' download data-aos="fade-down-right">
+                           <a href='assets/Resume.pdf' download data-aos="fade-down-right">
                                <span><h4>Resume</h4> </span><TrendingFlatIcon fontSize='large' style={{color:"black"}}/> 
                           </a>
                         </Button>
