@@ -27,7 +27,7 @@ function Projects() {
            title='Instagram Clone'
            about='This is a clone of Instagram. You can create your profile and can add posts. You can also follow your friends who are registered in this site.'
            git='https://github.com/satyamchaurasia2011/my-insta-clone'
-           link='https://myinstaclone20.herokuapp.com/'
+           link='https://my-instagram-clone.netlify.app/'
            />
            <Project
            index='04'
