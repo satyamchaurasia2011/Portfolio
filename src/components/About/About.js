@@ -5,12 +5,12 @@ import { Button } from '@material-ui/core';
 function About() {
     return (
         <div className='about' id='about'>
-            <div className='main-abt'>
-                    <div data-aos="flip-up" className='left-img'>
+            <div className='main-abt' data-aos="zoom-in">
+                    <div className='left-img'>
                         <img src='assets/img/satyam.jpeg' />
                     </div>
-                    <div className='bio' data-aos="fade-up">
-                        <h1 data-aos="fade-down">About Me</h1>
+                    <div className='bio'>
+                        <h1 >About Me</h1>
                         <div></div>
                         <br/>
                         <h2>I am Satyam</h2><br />
@@ -21,7 +21,7 @@ function About() {
                         </p>
 
                         <Button size='large' className='resume'>
-                           <a href='assets/Satyam-resume.pdf' target="_blank" data-aos="fade-down-right">
+                           <a href='assets/Satyam-resume.pdf' target="_blank" data-aos="fade-up">
                                <span><h4>Resume</h4> </span><TrendingFlatIcon fontSize='large' style={{color:"black"}}/> 
                           </a>
                         </Button>

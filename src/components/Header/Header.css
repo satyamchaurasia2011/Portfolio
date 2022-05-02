@@ -34,13 +34,31 @@
     font-weight : 600;
     transform: rotate(270deg);
 }
-.header-option>h3:hover{
+.header-option>h3>a:after{
     border-bottom: 3px solid aqua;
+    content: '';
+    position: absolute;
+    margin-left: 6px;
+    width: 80%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+}
+.header-option>h3>a:after{
+
+}
+.header-option>h3>a:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 .header-option>h3>a{
     color: rgb(95, 91, 91);
     text-decoration : none;
     font-size: 19px;
+    padding-bottom: 3px;
 }
 
 @keyframes bounce {
