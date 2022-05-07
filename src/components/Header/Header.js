@@ -46,7 +46,7 @@ function Header() {
             activeNavClass="is-active"
             scrollDuration="800"
             headerBackground="true"
-            offset={350}
+            offset={400}
           >
             <div className='main-header'>
             <div className='avatar'>

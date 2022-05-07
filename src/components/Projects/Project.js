@@ -12,7 +12,7 @@ function Project({index,image,title,about,git,link}) {
         <div className='project'>
             <div className='main-project' style={{flexDirection:`${flow}`}}>
             <div  className='left-view' style={{textAlign:`${space}`}}>
-                        <img data-aos="flip-down" src={image} alt/>
+                        <img data-aos="" src={image} alt/>
                 </div>
                 <div 
                 data-aos="fade-up"

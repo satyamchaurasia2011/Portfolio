@@ -47,9 +47,7 @@
     transform-origin: bottom right;
     transition: transform 0.35s ease-out;
 }
-.header-option>h3>a:after{
 
-}
 .header-option>h3>a:hover:after{
     transform: scaleX(1);
     transform-origin: bottom left;
@@ -115,6 +113,9 @@
     .header-option>h3>a{
         font-size: 16px;
     }
+    .header-icons{
+        margin-top: 50%;
+    }
 }
 
 @media (max-width:767px) {
@@ -126,8 +127,9 @@
     }
     .header{
         display: flex;
-       
+       margin-top: -3px;
         width: 100%;
+        background-color: #dfdfdf;
     }
     #row-scroll{
         display: flex;
@@ -139,6 +141,7 @@
     }
     .avatar{
         margin-left: 30px;
+        margin-bottom: 5px;
       }
     .drawer-sec{
         padding: 50px 0px;
@@ -166,4 +169,5 @@
        color: black;
        
     }
+    
 }

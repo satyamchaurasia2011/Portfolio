@@ -21,8 +21,8 @@ function About() {
                         </p>
 
                         <Button size='large' className='resume'>
-                           <a href='assets/Satyam-resume.pdf' target="_blank" data-aos="fade-up">
-                               <span><h4>Resume</h4> </span><TrendingFlatIcon fontSize='large' style={{color:"black"}}/> 
+                           <a href='assets/Satyam-resume.pdf' target="_blank">
+                               <span><h4>Resume</h4> </span><TrendingFlatIcon fontSize='large' style={{color:"rgb(68, 0, 255"}}/> 
                           </a>
                         </Button>
                         

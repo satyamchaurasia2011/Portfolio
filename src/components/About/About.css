@@ -55,7 +55,7 @@
 }
 .resume{
     font-size: 25px !important;
-    margin-top: 80px !important;
+    margin-top: 40px !important;
     transition: background-color 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important;
 }
 
@@ -63,7 +63,7 @@ h4{
     margin-left: 5px !important;
     font-family: 'Ubuntu', sans-serif !important;
     letter-spacing: 3px !important;
-    color: black !important;
+    color: rgb(68, 0, 255) !important;
 }
 
 
