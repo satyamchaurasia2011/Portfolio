@@ -1,44 +1,44 @@
-import React from 'react'
-import Skill from './Skill'
-import './Skills.css'
+import React from "react";
+import Skill from "./Skill";
+import "./Skills.css";
 
 function Skills() {
-    return (
-       <div className='skills' id='skills'>
-           <div className='main-skills'>
-           <div data-aos="zoom-in" className='top-sk' id='small-sk'>
-                    <h1>Skills</h1>
-               </div>
-               <div className='left-skills'>
-                    <Skill name='HTML5' range='80'/>
-                    <Skill name='CSS3' range='78'/>
-                    <Skill name='JavaScript' range='75'/>
-                    <Skill name='C' range='83'/>
-                    <Skill name='C++' range='85'/>
-                    <Skill name='PHP' range='40'/>
-                    <Skill name='SQL' range='65'/>
-               </div>
-               <div data-aos="zoom-in" className='center'>
-                    <h1>Skills</h1>
-               </div>
-               <div className='right-skills' >
-                 <Skill name='NodeJs' range='73'/>
-                 <Skill name='Bootstrap' range='75'/>
-                 <Skill name='React+Redux' range='84'/>
-                 <Skill name='MongoDB' range='65'/>
-                 <Skill name='Firebase' range='75'/>
-                 <Skill name='Nextjs' range='55'/>
-                 <Skill name='MERN' range='78'/>
-               </div>
-           </div>
-       </div>
-    )
+  return (
+    <div className="skills" id="skills">
+      <div className="main-skills">
+        <div data-aos="zoom-in" className="top-sk" id="small-sk">
+          <h1>Skills</h1>
+        </div>
+        <div className="left-skills">
+          <Skill name="HTML5" range="80" />
+          <Skill name="CSS3" range="78" />
+          <Skill name="JavaScript" range="75" />
+          <Skill name="C & C++" range="88" />
+          <Skill name="DSA" range="78" />
+          <Skill name="SQL" range="65" />
+          <Skill name="OOP" range="75" />
+        </div>
+        <div data-aos="zoom-in" className="center">
+          <h1>Skills</h1>
+        </div>
+        <div className="right-skills">
+          <Skill name="NodeJs" range="73" />
+          <Skill name="React+Redux" range="84" />
+          <Skill name="MongoDB" range="65" />
+          <Skill name="Firebase" range="75" />
+          <Skill name="Nextjs" range="55" />
+          <Skill name="DBMS" range="70" />
+          <Skill name="React Native" range="80" />
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Skills
+export default Skills;
 
-
-{/* <StyleSkill id="skills">
+{
+  /* <StyleSkill id="skills">
 <h1>Skills</h1>
 <SkillMain>
     <h2>Languages</h2>
@@ -64,4 +64,5 @@ export default Skills
 
 </SkillMain>
 
-</StyleSkill> */}
+</StyleSkill> */
+}
